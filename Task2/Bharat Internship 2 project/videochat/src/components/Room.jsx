@@ -6,8 +6,8 @@ import { ZegoUIKitPrebuilt } from '@zegocloud/zego-uikit-prebuilt';
 const Room = () => {
     const { roomID } = useParams();
     const meeting = async (element) => {
-        const appID = 296358055;
-        const serverSecret = "ddfd56bf9cc05855545472057f26c6a8";
+        const appID = Room Key ID enter;
+        const serverSecret = "Eey Server ID Enter";
         const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
             appID,
             serverSecret,
